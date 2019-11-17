@@ -1,16 +1,4 @@
 @font-face {
-    font-family: Gotham Pro;
-    src: url(/Users/eldarkomarov/Documents/Графика/Photo/ofont_ru_Gotham_Pro_2.ttf);
-}
-
-@font-face {
-    font-family: Gotham Pros;
-    src: url(/Users/eldarkomarov/Documents/Графика/Photo/ofont_ru_Gotham_Pro.ttf);
-}
-
-
-
-@font-face {
     font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         
         src:    url('https://nomail.com.ua/files/eot/0fe8b39328b4fa6490cc5916df0752e5.eot?#iefix') format('embedded-opentype'),
@@ -19,7 +7,17 @@
     }
     
     @font-face { font-family: 'GothamPro-Black';  src: local('GothamPro-Black'), url('https://nomail.com.ua/files/woff/0fe8b39328b4fa6490cc5916df0752e5.woff') format('woff'); }
+ 
     
+@font-face {
+font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
+    
+    src:    url('https://nomail.com.ua/files/eot/aafeb23794c0546aa78e6d11e49ef908.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/aafeb23794c0546aa78e6d11e49ef908.woff2') format('woff2');
+}
+
+@font-face { font-family: 'GothamPro';  src: local('GothamPro'), url('https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff') format('woff'); }
     
 
 
@@ -54,7 +52,7 @@ a {
     }
 
     .container1 {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         color: white;
         width: 100%;
         font-size: 20px;
@@ -70,7 +68,7 @@ a {
     }
 
     .cviz {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         color: white;
         width: 100%;
         font-size: 11px;
@@ -101,7 +99,7 @@ a {
     }
 
     .time {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         color: white;
         width: 100%;
         font-size: 10px;
@@ -146,7 +144,7 @@ a {
     }
 
     .img1 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 62%;
         font-size: 15px;
@@ -168,7 +166,7 @@ a {
     }
 
     .img2 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 62%;
         font-size: 15px;
@@ -190,7 +188,7 @@ a {
     }
 
     .img3 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 62%;
         font-size: 15px;
@@ -291,7 +289,7 @@ a {
     }
 
     .text2 {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         text-transform: uppercase;
         line-height: 50px;
         color: white;
@@ -355,7 +353,7 @@ a {
     }
 
     .text1 {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         text-transform: uppercase;
         line-height: 35px;
         color: white;
@@ -368,7 +366,7 @@ a {
     }
 
     .img1 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 90%;
         font-size: 15px;
@@ -390,7 +388,7 @@ a {
     }
 
     .img2 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 90%;
         font-size: 15px;
@@ -412,7 +410,7 @@ a {
     }
 
     .img3 {
-        font-family: "Gotham Pros";
+        font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
         filter: invert();
         width: 90%;
         font-size: 15px;
@@ -476,7 +474,7 @@ a {
     }
 
     .text2 {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         text-transform: uppercase;
         line-height: 50px;
         color: white;
