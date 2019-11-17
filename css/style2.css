@@ -8,6 +8,22 @@
     src: url(/Users/eldarkomarov/Documents/Графика/Photo/ofont_ru_Gotham_Pro.ttf);
 }
 
+
+
+@font-face {
+    font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
+        
+        src:    url('https://nomail.com.ua/files/eot/0fe8b39328b4fa6490cc5916df0752e5.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/0fe8b39328b4fa6490cc5916df0752e5.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/0fe8b39328b4fa6490cc5916df0752e5.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'GothamPro-Black';  src: local('GothamPro-Black'), url('https://nomail.com.ua/files/woff/0fe8b39328b4fa6490cc5916df0752e5.woff') format('woff'); }
+    
+    
+
+
+
 a {
     text-decoration: none;
 }
@@ -113,7 +129,7 @@ a {
     }
 
     .text1 {
-        font-family: "Gotham Pro";
+        font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         text-transform: uppercase;
         line-height: 50px;
         color: white;
