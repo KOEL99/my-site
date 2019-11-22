@@ -1,0 +1,314 @@
+@font-face {
+    font-family: BlackO;
+    src: url(../font/latoblack.ttf);
+}
+
+@font-face {
+    font-family: Regil;
+    src: url(../font/latoregular.ttf);
+}
+
+body {
+    background-color: #202020;
+    margin: 0;
+}
+
+header {
+    background-image: url(../pic/house_header.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 426px) and (max-width: 1366px) {
+    .img1 {
+        margin: 5px 0;
+        width: 250px;
+    }
+
+    .call {
+        display: none;
+    }
+
+    #flex1 {
+        /*border: 1px solid;*/
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    height: 100%;
+	    padding: 0 5px;
+	    overflow: hidden;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    .c1 {
+        font-family: BlackO;
+        font-size: 20px;
+        color: white;
+        margin: 5px 0;
+    }
+
+
+    .c2 {
+        font-family: Regil;
+        font-size: 12px;
+        color: white;
+        letter-spacing: -0.3px;
+    }
+
+    .lines {
+        width: 180px;
+        height: 2px;
+        transform: translate(0, -10px);
+    }
+
+    .c3 {
+        font-family: Regil;
+        font-size: 10px;
+        color: white;
+        transform: translate(0, -10px);
+        letter-spacing: 0.3px;
+    }
+
+    h1 {
+        font-family: BlackO;
+        line-height: 60px;
+        max-width: 70%;
+        color: white;
+        font-size: 40px;
+    }
+
+    .raw2 {
+        flex: auto;
+    }
+    .preim {
+    max-width: 80%;
+}
+.ikon {
+    filter: invert();
+    width: 20px;
+}
+
+    .m1 {
+        font-family: Regil;
+        color: white;
+        margin: 10px 0;
+    }
+
+    .m11 {
+        vertical-align: 5px;
+    }
+
+    .button1 {
+        font-family: BlackO;
+        font-size: 15px;
+        text-indent: 0em;
+        line-height: 40px;
+        background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+        border-radius: 25px;
+        width: 300px;
+        height: 50px;
+        margin: 20px 20px 20px 0;
+    }
+
+    .tm {
+        display: none;
+    }
+
+    .img4 {
+        width: 20px;
+        vertical-align: -4px;
+        
+    }
+
+    .img5 {
+        height:  100px;
+        
+    }
+
+    #line1 {
+        width: 2px;
+        height: 70px;
+        color: white;
+        background: white;
+        margin-left: 9px;
+    }
+
+    #img6 {
+        filter: none;
+        width: 20px;
+        height: 30px;
+    }
+
+    .floating{
+        animation-name: floating;
+        -webkit-animation-name: floating;
+     
+        animation-duration: 1.5s;   
+        -webkit-animation-duration: 1.5s;
+     
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+    }
+     
+    @keyframes floating {
+        0% {
+            transform: translateY(0%);  
+        }
+        50% {
+            transform: translateY(80%);  
+        }   
+        100% {
+            transform: translateY(0%);
+        }           
+    }
+
+    #flex2 {
+        /*border: 1px solid;*/
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    height: 60px;
+	    padding: 0 5px;
+	    overflow: hidden;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    
+    .img1 {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        width: 250px;
+    }
+
+    .call {
+        margin: 10px 10px 0 0;
+    }
+
+    #flex1 {
+        /*border: 1px solid;*/
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    height: 100%;
+	    padding: 0 5px;
+	    overflow: hidden;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    .c1 {
+        display: none;
+    }
+
+
+    .c2 {
+        display: none;
+    }
+
+    .lines {
+        display: none;
+    }
+
+    .c3 {
+        display: none;
+    }
+
+    h1 {
+        font-family: BlackO;
+        line-height: 40px;
+        max-width: 100%;
+        color: white;
+        font-size: 24px;
+        margin: 0px 15px 0 15px;
+    }
+
+    .raw2 {
+        flex: auto;
+    }
+
+    .preim {
+        max-width: 100%;
+    }
+
+    .ikon {
+        filter: invert();
+        width: 20px;
+    }
+
+    .m1 {
+        font-family: Regil;
+        color: white;
+        margin: 15px 15px;
+    }
+
+    .m11 {
+        vertical-align: 5px;
+        font-size: 14px;
+    }
+
+    .button1 {
+        font-family: BlackO;
+        font-size: 15px;
+        text-indent: 0em;
+        line-height: 40px;
+        background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+        box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+        border-radius: 25px;
+        width: 190px;
+        height: 45px;
+        margin: 20px 5px 20px 15px;
+    }
+    .td {
+        display: none;
+    }
+
+    .img4 {
+        width: 20px;
+        vertical-align: -4px;
+    }
+
+    .img5 {
+        height: 100px;
+        
+    }
+
+    #line1 {
+        display: none;
+    }
+
+    #img6 {
+        display: none;
+    }
+
+    #flex2 {
+        /*border: 1px solid;*/
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    height: 60px;
+	    padding: 0 5px;
+	    overflow: hidden;
+    }
+}

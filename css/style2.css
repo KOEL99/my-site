@@ -3,8 +3,9 @@
         
         src:    url('https://nomail.com.ua/files/eot/0fe8b39328b4fa6490cc5916df0752e5.eot?#iefix') format('embedded-opentype'),
                 url('https://nomail.com.ua/files/woff/0fe8b39328b4fa6490cc5916df0752e5.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/0fe8b39328b4fa6490cc5916df0752e5.woff2') format('woff2');
-    }
+                url('https://nomail.com.ua/files/woff2/0fe8b39328b4fa6490cc5916df0752e5.woff2') format('woff2'),
+                url(../pic/ofont_ru_Gotham_Pro_2.ttf);
+            }
     
     @font-face { font-family: 'GothamPro-Black';  src: local('GothamPro-Black'), url('https://nomail.com.ua/files/woff/0fe8b39328b4fa6490cc5916df0752e5.woff') format('woff'); }
  
@@ -14,7 +15,8 @@ font-family: 'fontaafeb23794c0546aa78e6d11e49ef908';
     
     src:    url('https://nomail.com.ua/files/eot/aafeb23794c0546aa78e6d11e49ef908.eot?#iefix') format('embedded-opentype'),
             url('https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/aafeb23794c0546aa78e6d11e49ef908.woff2') format('woff2');
+            url('https://nomail.com.ua/files/woff2/aafeb23794c0546aa78e6d11e49ef908.woff2') format('woff2'),
+            url(../pic/ofont_ru_Gotham_Pro.ttf);
 }
 
 @font-face { font-family: 'GothamPro';  src: local('GothamPro'), url('https://nomail.com.ua/files/woff/aafeb23794c0546aa78e6d11e49ef908.woff') format('woff'); }
@@ -304,6 +306,8 @@ a {
     .it {
         max-width: 700px;
     }
+
+    
 }
 
 @media only screen and (max-width: 905px) {

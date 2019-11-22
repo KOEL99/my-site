@@ -1,0 +1,1109 @@
+body {
+    background-image: url(../pic/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;      
+}
+
+a:visited {
+    color: white;    
+}
+
+
+
+@media only screen and (max-width: 905px) {
+    #logo {
+        width: 300px;
+        height: 50px;
+        outline: 0px solid #cccccc;
+        background-image: url(../pic/logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .cl2 {
+        display: none;
+    }
+    .cl3 {
+        display: none;
+    }
+    
+    .cl4 {
+        display: none;
+    }
+
+    #rectangles {
+        display: none;
+    }
+
+    #rectangle {
+        display: none;
+    }
+}
+
+    @media only screen and (min-width: 905px) {
+        /*header start*/
+        #logo {
+            width: 100%;
+            height: 100%;
+            max-width: 282px;
+            max-height: 43px;
+            outline: 0px solid #cccccc;
+            background-image: url(../pic/logo.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 5px;
+            right: 830px;
+        }
+
+        .cl2 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            top: -10px;
+            right: 261px;
+        }
+        .cl3 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 11px;
+            color: white;
+            position: absolute;
+            top: 23px;
+            right: 260px;
+        }
+        
+        .cl4 {
+            
+            font-family: "Gotham Pros";
+            font-size: 10px;
+            color: white;
+            position: absolute;
+            top: 46px;
+            right: 259px;
+        }
+
+        #rectangles {
+            width: 30%;
+            height: 30%;
+            max-width: 184px;
+            max-height: 3px;
+            background: #fff794;
+            position: absolute;
+            top: 46px;
+            right: 260px;
+        }
+
+        #rectangle {
+            width: 30%;
+            height: 30%;
+            max-width: 260px;
+            max-height: 8px;
+            background: #fff794;
+            position: absolute;
+            margin: 125px -15px;
+        }
+
+        .img1 {
+            max-width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 285px;
+            left: 265px;
+        }
+
+        .img2 {
+            max-width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 320px;
+            left: 265px;
+        }
+
+        .img3 {
+            max-width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 355px;
+            left: 265px;
+        }
+
+        .cl5 {
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 276px;
+            left: 293px;
+        }
+
+        .cl6 {
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 311px;
+            left: 293px;
+        }
+
+        .cl7 {
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 345px;
+            left: 293px;
+        }
+
+        .button {
+            font-family: "Gotham Pro";
+            text-indent: 2em;
+            line-height: 52px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            position: absolute;
+            left: 265px;
+            top: 400px;
+            width: 335px;
+            height: 50px;
+            z-index: 32;
+          }
+
+          img {
+            filter: invert();
+        }
+          
+          .img4 {
+            filter: none;
+            width: 30px;
+            height: 30px;
+        }
+        .img5 {
+            filter: none;
+            position: absolute;
+            left: 630px;
+            top: 380px;
+            width: 100px;
+            height: 100px;
+        }
+
+        #line1 {
+            width: 1px;
+            height: 65px;
+            background: white;
+        }
+
+        #img6 {
+            filter: none;
+        }
+
+
+        .floating{
+            animation-name: floating;
+            -webkit-animation-name: floating;
+         
+            animation-duration: 1.5s;   
+            -webkit-animation-duration: 1.5s;
+         
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+        }
+         
+        @keyframes floating {
+            0% {
+                transform: translateY(0%);  
+            }
+            50% {
+                transform: translateY(80%);  
+            }   
+            100% {
+                transform: translateY(0%);
+            }           
+        }
+         
+        
+
+
+        #line2 {
+            width: 1px;
+            height: 65px;
+            background: white;
+            position: absolute;
+            left: 270px;
+            top: 580px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        a:link {
+            color:black;      
+        }
+        
+        a:visited {
+            color: black;    
+        }
+        
+        .cl3 a {
+            color: white;
+        }
+
+        /*header end*/
+
+        /*house 1 start*/
+
+        #rectangle1 {
+            width: 30%;
+            height: 30%;
+            max-width: 260px;
+            max-height: 8px;
+            background: #fff794;
+            position: absolute;
+            top: 750px;
+            left: -5px;
+        }
+
+        .cl8 {
+            width: 500px;
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 25px;
+            color: white;
+            position: absolute;
+            left: 290px;
+            top: -32px;
+        }
+
+        .img7 {
+            width: 350px;
+            height: 280px;
+            filter: none;
+            position: absolute;
+            top: 870px;
+            left: 285px;
+        }
+
+        .img8 {
+            width: 420px;
+            height: 440px;
+            filter: grayscale();
+            opacity: .3;
+            position: absolute;
+            top: 820px;
+            left: 0px;
+        }
+
+        .img9 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1160px;
+            left: 285px;
+        }
+
+        .img10 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1160px;
+            left: 373px;
+        }
+
+        .img11 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1160px;
+            left: 463px;
+        }
+
+        .img12 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1160px;
+            left: 552px;
+        }
+
+        .c1 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 700px;
+            top: 850px;
+        }
+
+        .c2 {
+            max-width: 440px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 890px;
+            left: 700px; 
+        }
+
+        #sq1 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 705px;
+            top: 1015px;
+        }
+
+        .c3 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1030px;
+            left: 820px; 
+        }
+
+        #sq2 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 920px;
+            top: 1015px;
+        }
+
+        .c4 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1030px;
+            left: 1040px; 
+        }
+
+        .button1 {
+            font-family: "Gotham Pro";
+            text-indent: 4em;
+            line-height: 53px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            position: absolute;
+            left: 700px;
+            top: 1125px;
+            width: 300px;
+            height: 55px;
+            z-index: 32;
+          }
+
+          .c5 {
+            filter: none;
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          .button2 {
+            font-family: "Gotham Pros";
+            text-decoration-color: white;
+            font-size: 14px;
+            text-indent: 4em;
+            line-height: 25px;
+            border: 1px solid white;
+            border-radius: 25px;
+            position: absolute;
+            left: 700px;
+            top: 1190px;
+            width: 300px;
+            height: 53px;
+            z-index: 32;
+          }
+
+          .c6 {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          .qw {
+              color: white;
+          }
+
+          /*house 1 stop*/
+
+          /*house 2 start*/
+
+          .i2 {
+            width: 350px;
+            height: 280px;
+            filter: none;
+            position: absolute;
+            top: 1400px;
+            right: 285px;
+        }
+
+        .i1 {
+            width: 420px;
+            height: 440px;
+            filter: grayscale();
+            opacity: .3;
+            position: absolute;
+            top: 1350px;
+            right: 0px;
+        }
+
+        .i3 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1690px;
+            right: 552px;
+        }
+
+        .i4 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1690px;
+            right: 463px;
+        }
+
+        .i5 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1690px;
+            right: 373px;
+        }
+
+        .i6 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 1690px;
+            right: 285px;
+        }
+
+        .z1 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 290px;
+            top: 1380px;
+        }
+
+        .z2 {
+            max-width: 440px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1420px;
+            left: 290px; 
+        }
+
+        #sqi1 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 300px;
+            top: 1550px;
+        }
+
+        .z3 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1565px;
+            left: 415px; 
+        }
+
+        #sqi2 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 505px;
+            top: 1550px;
+        }
+
+        .z4 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1565px;
+            left: 620px; 
+        }
+
+        .button3 {
+            font-family: "Gotham Pro";
+            text-indent: 4em;
+            line-height: 53px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            position: absolute;
+            left: 290px;
+            top: 1660px;
+            width: 300px;
+            height: 55px;
+            z-index: 32;
+          }
+
+          .z5 {
+            filter: none;
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          .button4 {
+            font-family: "Gotham Pros";
+            text-decoration-color: white;
+            font-size: 14px;
+            text-indent: 4em;
+            line-height: 25px;
+            border: 1px solid white;
+            border-radius: 25px;
+            position: absolute;
+            left: 290px;
+            top: 1725px;
+            width: 300px;
+            height: 53px;
+            z-index: 32;
+          }
+
+          .z6 {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          /*house 2 stop*/
+
+          /*house 3 start*/
+
+        .pic2 {
+            width: 350px;
+            height: 280px;
+            filter: none;
+            position: absolute;
+            top: 1940px;
+            left: 285px;
+        }
+
+        .pic1 {
+            width: 420px;
+            height: 440px;
+            filter: grayscale();
+            opacity: .3;
+            position: absolute;
+            top: 1890px;
+            left: 0px;
+        }
+
+        .pic3 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2230px;
+            left: 285px;
+        }
+
+        .pic4 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2230px;
+            left: 373px;
+        }
+
+        .pic5 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2230px;
+            left: 463px;
+        }
+
+        .pic6 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2230px;
+            left: 552px;
+        }
+
+        .x1 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 700px;
+            top: 1920px;
+        }
+
+        .x2 {
+            max-width: 440px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1960px;
+            left: 700px; 
+        }
+
+        #sqx1 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 705px;
+            top: 2090px;
+        }
+
+        .x3 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 2105px;
+            left: 820px; 
+        }
+
+        #sqx2 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 920px;
+            top: 2090px;
+        }
+
+        .x4 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 2105px;
+            left: 1040px; 
+        }
+
+        .button5 {
+            font-family: "Gotham Pro";
+            text-indent: 4em;
+            line-height: 53px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            position: absolute;
+            left: 700px;
+            top: 2200px;
+            width: 300px;
+            height: 55px;
+            z-index: 32;
+          }
+
+          .x5 {
+            filter: none;
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          .button6 {
+            font-family: "Gotham Pros";
+            text-decoration-color: white;
+            font-size: 14px;
+            text-indent: 4em;
+            line-height: 25px;
+            border: 1px solid white;
+            border-radius: 25px;
+            position: absolute;
+            left: 700px;
+            top: 2265px;
+            width: 300px;
+            height: 53px;
+            z-index: 32;
+          }
+
+          .x6 {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          /*house 3 stop*/
+
+          /*house 4 start*/
+
+          .o2 {
+            width: 350px;
+            height: 280px;
+            filter: none;
+            position: absolute;
+            top: 2470px;
+            right: 285px;
+        }
+
+        .o1 {
+            width: 420px;
+            height: 440px;
+            filter: grayscale();
+            opacity: .3;
+            position: absolute;
+            top: 2420px;
+            right: 0px;
+        }
+
+        .o3 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2760px;
+            right: 552px;
+        }
+
+        .o4 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2760px;
+            right: 463px;
+        }
+
+        .o5 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2760px;
+            right: 373px;
+        }
+
+        .o6 {
+            width: 83px;
+            height: 60px;
+            filter: none;
+            position: absolute;
+            top: 2760px;
+            right: 285px;
+        }
+
+        .oo1 {
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            left: 290px;
+            top: 2450px;
+        }
+
+        .oo2 {
+            max-width: 440px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 2490px;
+            left: 290px; 
+        }
+
+        #sqo1 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 290px;
+            top: 2620px;
+        }
+
+        .oo3 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 2635px;
+            left: 405px; 
+        }
+
+        #sqo2 {
+            font-family: "Gotham Pro";
+            color: #c2ae53;
+            text-align: center;
+            line-height: 90px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+            position: absolute;
+            left: 500px;
+            top: 2620px;
+        }
+
+        .oo4 {
+            max-width: 100px;
+            line-height: 20px;
+            font-family: "Gotham Pros";
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 2635px;
+            left: 615px; 
+        }
+
+        .button7 {
+            font-family: "Gotham Pro";
+            text-indent: 4em;
+            line-height: 53px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            position: absolute;
+            left: 290px;
+            top: 2730px;
+            width: 300px;
+            height: 55px;
+            z-index: 32;
+          }
+
+          .oo5 {
+            filter: none;
+            position: absolute;
+            left: 30px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          .button8 {
+            font-family: "Gotham Pros";
+            text-decoration-color: white;
+            font-size: 14px;
+            text-indent: 4em;
+            line-height: 25px;
+            border: 1px solid white;
+            border-radius: 25px;
+            position: absolute;
+            left: 290px;
+            top: 2795px;
+            width: 300px;
+            height: 53px;
+            z-index: 32;
+          }
+
+          .oo6 {
+            position: absolute;
+            left: 25px;
+            top: 15px;
+            width: 23px;
+            height: 23px; 
+          }
+
+          /*house 4 stop*/
+
+          .next1 {
+              width: 20px;
+              height: 20px;
+              position: absolute;
+              top: 2920px;
+              left: 600px;
+          }
+
+          .next11 {
+            font-family: "Gotham Pros";
+            text-decoration: underline;
+            font-size: 15px;
+            color: white;
+            position: absolute;
+            top: 2910px;
+            left: 625px;
+        }
+
+
+        #rectangle2 {
+            width: 30%;
+            height: 30%;
+            max-width: 260px;
+            max-height: 8px;
+            background: #fff794;
+            position: absolute;
+            top: 3030px;
+            left: -5px;
+        }
+
+        .q1 {
+            width: 500px;
+            font-family: "Gotham Pro";
+            text-transform: uppercase;
+            font-size: 25px;
+            color: white;
+            position: absolute;
+            left: 290px;
+            top: 2997px;
+        }
+
+        .tree {
+            text-align: center;
+            filter: none;
+        }
+
+        .znak {
+                filter: none;
+                position: absolute;
+                right: 435px;
+                top: 3100px;
+                max-width: 90px;
+                max-height: 90px;
+        }
+
+        .lp1 {
+            filter: none;
+            position: absolute;
+        }
+
+        .lp2 {
+            filter: none;
+        }
+
+        .lp3 {
+            filter: none;
+        }
+    }
+      
+
+
+
+@font-face {
+    font-family: Gotham Pro;
+    src: url(/Users/eldarkomarov/Documents/Графика/Photo/ofont_ru_Gotham_Pro_2.ttf);
+}
+
+@font-face {
+    font-family: Gotham Pros;
+    src: url(/Users/eldarkomarov/Documents/Графика/Photo/ofont_ru_Gotham_Pro.ttf);
+}
+
+.cl1 {
+    
+    width: 50%;
+    max-width: 600px;
+    line-height: 1.5;
+    font-family: "Gotham Pro";
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 263px;
+    top: 80px;
+}
