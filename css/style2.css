@@ -129,6 +129,7 @@ a {
     }
 
     .text1 {
+        border: 1px solid;
         font-family: 'font0fe8b39328b4fa6490cc5916df0752e5';
         text-transform: uppercase;
         line-height: 50px;

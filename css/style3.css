@@ -20,7 +20,10 @@ header {
     background-repeat: no-repeat;
 }
 
-@media (min-width: 426px) and (max-width: 1366px) {
+@media (min-width: 426px) {
+
+    /*Header*/
+
     .img1 {
         margin: 5px 0;
         width: 250px;
@@ -31,7 +34,7 @@ header {
     }
 
     #flex1 {
-        /*border: 1px solid;*/
+        border: 1px solid;
         display: flex;
 	    flex-wrap: wrap;
 	    max-width: 960px;
@@ -79,7 +82,7 @@ header {
     h1 {
         font-family: BlackO;
         line-height: 60px;
-        max-width: 70%;
+        max-width: 700px;
         color: white;
         font-size: 40px;
     }
@@ -88,7 +91,7 @@ header {
         flex: auto;
     }
     .preim {
-    max-width: 80%;
+    max-width: 600px;
 }
 .ikon {
     filter: invert();
@@ -173,7 +176,7 @@ header {
     }
 
     #flex2 {
-        /*border: 1px solid;*/
+        border: 1px solid;
         display: flex;
 	    flex-wrap: wrap;
 	    max-width: 960px;
@@ -182,6 +185,166 @@ header {
 	    padding: 0 5px;
 	    overflow: hidden;
     }
+
+    /*2. Project Home*/
+
+    h2 {
+        font-family: BlackO;
+        color: white;
+        font-size: 26px;
+        margin: 100px 0;
+    }
+
+    #bloc {
+        border: 1px solid;
+        display: block;
+    }
+
+    .pic1 {
+        width: 445px;
+        height: 260px;
+    }
+
+    #flex3  {
+        border: 1px solid;
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 1366px;
+	    margin: 0 auto;
+	    padding: 0 5px;
+        overflow: hidden;
+        margin-bottom: -320px;
+    }
+
+    
+
+    .pic2 {
+        max-width: 110px;
+        height: 60px;
+        
+    }
+
+
+        .flex1_1 {
+            border: 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 960px;
+            padding: 0 5px;
+            margin: 0 auto;
+            height: 100%;
+            
+            overflow: hidden;
+        }
+
+        .flex1_3{
+            min-width: 150px;
+            margin: 5px 0 0 5px;
+            flex-basis: 30%;
+        }
+        
+        .flex1_2 {
+        flex-grow: 1;
+        flex-basis: 50%;
+        margin: 0 auto;
+        }
+        
+        h3 {
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        font-family: Regil;
+        }
+        
+        .mod2 {
+        border: 1px solid;
+        max-width: 80%;
+        line-height: 18px;
+        color: white;
+        font-family: Regil;
+        font-size: 12px;
+        margin-bottom: 10px;
+        }
+        
+        .mod2_1 {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 80%;
+        }
+
+        .mod2_2 {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 50%;
+        }
+        .krug_1 {
+            font-family: "BlackO";
+            color: #ff7b1d;
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+        }
+
+        .krug_2 {
+            font-family: "BlackO";
+            color: #ff7b1d;
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+        }
+
+        .t_krug {
+            font-family: "Regil";
+            max-width: 65px;
+            margin: auto 10px;
+            color: white;
+        }
+
+        .button2 {
+            font-family: BlackO;
+            font-size: 15px;
+            text-indent: 0em;
+            line-height: 40px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            width: 300px;
+            height: 50px;
+            margin: 20px 20px 20px 0;
+        }
+
+        .button3 {
+            font-family: BlackO;
+            color: white;
+            font-size: 15px;
+            text-indent: 0em;
+            line-height: 40px;
+            background: transparent;
+            border: 2px solid white;
+            border-radius: 25px;
+            width: 300px;
+            height: 50px;
+            margin: -5px 20px 20px 0;
+        }
+
+        .play {
+            filter: invert();
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .all {
+            font-family: BlackO;
+        }
 }
 
 
@@ -302,13 +465,170 @@ header {
     }
 
     #flex2 {
-        /*border: 1px solid;*/
+        display: none;
+    }
+
+    #a, #b, #c {
+        display: none;
+    }
+
+    h2 {
+        font-family: BlackO;
+        color: white;
+        font-size: 26px;
+        margin: 100px 0;
+    }
+
+    #bloc {
+        border: 1px solid;
+        display: block;
+    }
+
+    .pic1 {
+        width: 415px;
+        height: 260px;
+    }
+
+    #flex3  {
+        border: 1px solid;
         display: flex;
 	    flex-wrap: wrap;
-	    max-width: 960px;
+	    max-width: 1366px;
 	    margin: 0 auto;
-	    height: 60px;
 	    padding: 0 5px;
-	    overflow: hidden;
+        overflow: hidden;
+        margin-bottom: -320px;
     }
+
+    
+
+    .pic2 {
+        max-width: 100px;
+        height: 60px;
+        
+    }
+
+
+        .flex1_1 {
+            border: 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 960px;
+            padding: 0 5px;
+            margin: 0 auto;
+            height: 100%;
+            
+            overflow: hidden;
+        }
+
+        .flex1_3{
+            min-width: 150px;
+            margin: 5px 0 0 5px;
+            flex-basis: 30%;
+        }
+        
+        .flex1_2 {
+        flex-grow: 1;
+        flex-basis: 50%;
+        margin: 0 auto;
+        }
+        
+        h3 {
+        color: white;
+        font-size: 18px;
+        margin: 10px;
+        font-family: Regil;
+        }
+        
+        .mod2 {
+        border: 1px solid;
+        max-width: 80%;
+        line-height: 18px;
+        color: white;
+        font-family: Regil;
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-left: 11px;
+        }
+        
+        .mod2_1 {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 100%;
+        }
+
+        .mod2_2 {
+            margin-left: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 50%;
+        }
+        .krug_1 {
+            font-family: "BlackO";
+            color: #ff7b1d;
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+        }
+
+        .krug_2 {
+            font-family: "BlackO";
+            color: #ff7b1d;
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+	        height: 100px;
+	        background: #383838;
+            border-radius: 50px;
+        }
+
+        .t_krug {
+            font-family: "Regil";
+            max-width: 65px;
+            margin: auto 10px;
+            color: white;
+        }
+
+        .button2 {
+            font-family: BlackO;
+            font-size: 15px;
+            text-indent: 0em;
+            line-height: 40px;
+            background-image: -moz-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -webkit-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
+            box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
+            border-radius: 25px;
+            width: 300px;
+            height: 50px;
+            margin: 20px 20px 20px 55px;
+        }
+
+        .button3 {
+            font-family: BlackO;
+            color: white;
+            font-size: 15px;
+            text-indent: 0em;
+            line-height: 40px;
+            background: transparent;
+            border: 2px solid white;
+            border-radius: 25px;
+            width: 300px;
+            height: 50px;
+            margin: -5px 20px 20px 55px;
+        }
+
+        .play {
+            filter: invert();
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .all {
+            font-family: BlackO;
+        }
 }
