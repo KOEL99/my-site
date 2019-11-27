@@ -20,6 +20,13 @@ header {
     background-repeat: no-repeat;
 }
 
+#picture {
+    background-image: url(../pic/cropped-cropped-2.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
 @media (min-width: 426px) {
 
     /*Header*/
@@ -192,7 +199,7 @@ header {
         font-family: BlackO;
         color: white;
         font-size: 26px;
-        margin: 100px 0;
+        margin: 80px 0;
     }
 
     #bloc {
@@ -224,6 +231,19 @@ header {
         
     }
 
+    .zxc1 {
+        background-image: url(../pic/housebw.png);
+        background-repeat: no-repeat; 
+        background-position: left 0; 
+        background-size: contain;
+    }
+
+    .zxc2 {
+        background-image: url(../pic/housebw.png);
+        background-repeat: no-repeat; 
+        background-position: right 0; 
+        background-size: contain;
+    }
 
         .flex1_1 {
             border: 1px solid;
@@ -234,7 +254,6 @@ header {
             padding: 0 5px;
             margin: 0 auto;
             height: 100%;
-            
             overflow: hidden;
         }
 
@@ -247,7 +266,8 @@ header {
         .flex1_2 {
         flex-grow: 1;
         flex-basis: 50%;
-        margin: 0 auto;
+        margin: 35px auto 15px auto;
+        
         }
         
         h3 {
@@ -323,16 +343,15 @@ header {
         }
 
         .button3 {
-            font-family: BlackO;
+            font-family: Regil;
             color: white;
             font-size: 15px;
             text-indent: 0em;
-            line-height: 40px;
             background: transparent;
             border: 2px solid white;
             border-radius: 25px;
             width: 300px;
-            height: 50px;
+            height: 41px;
             margin: -5px 20px 20px 0;
         }
 
@@ -344,6 +363,13 @@ header {
 
         .all {
             font-family: BlackO;
+        }
+
+        .doska {
+            border: 1px solid;
+            max-width: 100%;
+            width: 300px;
+            margin: 100px 0;
         }
 }
 
@@ -603,23 +629,22 @@ header {
             background-image: -ms-linear-gradient( -90deg, rgb(242,255,97) 0%, rgb(255,186,0) 100%);
             box-shadow: 0px 0px 70px 0px rgba(160, 105, 34, 0.004);
             border-radius: 25px;
-            width: 300px;
+            width: 200px;
             height: 50px;
-            margin: 20px 20px 20px 55px;
+            margin: 20px 0;
+            
         }
 
         .button3 {
-            font-family: BlackO;
+            font-family: Regil;
             color: white;
             font-size: 15px;
             text-indent: 0em;
-            line-height: 40px;
             background: transparent;
             border: 2px solid white;
             border-radius: 25px;
-            width: 300px;
-            height: 50px;
-            margin: -5px 20px 20px 55px;
+            width: 200px;
+            height: 40px;
         }
 
         .play {
@@ -630,5 +655,15 @@ header {
 
         .all {
             font-family: BlackO;
+        }
+
+        #flex11 {
+        display: flex;
+	    flex-wrap: wrap;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    height: 100%;
+	    padding: 0 5px;
+	    overflow: hidden;
         }
 }
