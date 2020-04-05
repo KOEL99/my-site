@@ -1,0 +1,17 @@
+
+
+#flex12 {
+    background-image: url(../pic/doskii.png);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-color: #202020;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 5px;
+    overflow: hidden;
+}
